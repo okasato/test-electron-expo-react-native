@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "electron": "yarn expo-electron start",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/electron-adapter": "0.0.0-alpha.11",
+    "@expo/webpack-config": "^0.10.6",
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-web": "~0.11.7",
+    "electron": "^6.0.12"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
