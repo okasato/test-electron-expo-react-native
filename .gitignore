@@ -27,3 +27,11 @@ web-report/
 # electron-webpack
 /dist
 # @end @expo/electron-adapter
+
+# @generated: @expo/electron-adapter@0.0.0-alpha.14
+/.expo/*
+# Expo Web
+/web-build/*
+# electron-webpack
+/dist
+# @end @expo/electron-adapter
